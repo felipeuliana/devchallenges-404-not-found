@@ -104,4 +104,9 @@
     height: calc(100vh - 80px);
     padding: 40px;
   }
+
+  .main {
+    flex-direction: row;
+    margin-bottom: 0;
+  }
 }

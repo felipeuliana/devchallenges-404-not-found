@@ -1,0 +1,141 @@
+.container {
+  align-items: start;
+  display: grid;
+  grid-template-areas:
+    "header"
+    "content"
+    "footer";
+  grid-template-rows: repeat(3, auto);
+  margin: 0;
+  padding: 20px;
+}
+
+.header {
+  font-family: 'Inconsolata', monospace;
+  font-style: normal;
+  grid-area: header;
+  margin-bottom: 60px;
+}
+
+.header__heading {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: -1.92px;
+  line-height: 25px;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 95px;
+}
+
+.aside {
+  margin-bottom: 60px;
+}
+
+.aside__image {
+  max-width: 100%;
+}
+
+.content {
+  font-family: 'Space Mono';
+  font-style: normal;
+  grid-area: content;
+  justify-content: space-around;
+}
+
+.content__heading {
+  font-size: 48px;
+  font-weight: bold;
+  letter-spacing: -2.24px;
+  line-height: 71px;
+  margin: 0 0 30px;
+  padding: 0;
+}
+
+.content__paragraph {
+  font-size: 18px;
+  font-weight: normal;
+  letter-spacing: -0.84px;
+  line-height: 27px;
+  margin-bottom: 60px;
+}
+
+.content__button {
+  background: #333333;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: -0.49px;
+  line-height: 21px;
+  padding: 20px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.footer {
+  align-self: end;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  grid-area: footer;
+  text-align: center;
+}
+
+.footer__copy {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    align-items: center;
+    grid-template-areas:
+      "header header"
+      "content content"
+      "footer footer";
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: auto 1fr auto;
+    height: calc(100vh - 80px);
+    padding: 40px;
+  }
+
+  .main {
+    flex-direction: row;
+    margin-bottom: 0;
+  }
+
+  .aside {
+    margin: 0;
+  }
+
+  .aside__image {
+    align-self: start;
+    max-width: 450px;
+  }
+
+  .content {
+    padding: 0 40px;
+  }
+
+  .content__heading {
+    font-size: 64px;
+    line-height: 95px;
+  }
+
+  .content__paragraph {
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+
+@media (min-width: 1366px) {
+  .content {
+    padding: 0 80px 0 120px;
+  }
+}

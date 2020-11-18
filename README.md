@@ -2,7 +2,7 @@
 
 Solution for a challenge from [Devchallenges.io](http://devchallenges.io).
 
-### [Demo](https://{your-demo-link.your-domain}) | [Solution](https://{your-url-to-the-solution}) | [Challenge](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY)
+### [Demo](https://felipeuliana.github.io/devchallenges-404-not-found/) | [Solution](https://github.com/felipeuliana/devchallenges-404-not-found}) | [Challenge](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY)
 
 ## Table of Contents
 
@@ -16,11 +16,11 @@ Solution for a challenge from [Devchallenges.io](http://devchallenges.io).
 
 ![screenshot](404-not-found.png)
 
-Here you can see my [solution](https://{your-demo-link.your-domain}) for the _DevChallenge 404 Not Found Page_.
+Here you can see the [demo](https://felipeuliana.github.io/devchallenges-404-not-found/) that I developed for the _DevChallenge 404 Not Found Page_.
 
 It was a good firt experience at _DevChallenge_, where I can pratice some layout techniques.
 
-And with it I could test a little of display grid and flex, and a bit of BEM.
+And with it I could test a little of display grid and flex, and a bit of BEM, and Github Pages.
 
 ### Built With
 

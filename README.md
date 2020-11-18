@@ -2,7 +2,7 @@
 
 Solution for a challenge from [Devchallenges.io](http://devchallenges.io).
 
-### [Demo](https://felipeuliana.github.io/devchallenges-404-not-found/) | [Solution](https://github.com/felipeuliana/devchallenges-404-not-found}) | [Challenge](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY)
+### [Demo](https://felipeuliana.github.io/devchallenges-404-not-found/) | [Solution](https://github.com/felipeuliana/devchallenges-404-not-found) | [Challenge](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY)
 
 ## Table of Contents
 

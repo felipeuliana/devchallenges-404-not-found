@@ -1,6 +1,11 @@
 .container {
   align-items: start;
   display: grid;
+  grid-template-areas:
+    "header"
+    "content"
+    "footer";
+  grid-template-rows: repeat(3, auto);
   margin: 0;
   padding: 20px;
 }

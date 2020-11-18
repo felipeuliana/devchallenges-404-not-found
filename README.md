@@ -18,7 +18,7 @@ Solution for a challenge from [Devchallenges.io](http://devchallenges.io).
 
 Here you can see the [demo](https://felipeuliana.github.io/devchallenges-404-not-found/) that I developed for the _DevChallenge 404 Not Found Page_.
 
-It was a good firt experience at _DevChallenge_, where I can pratice some layout techniques.
+It was a good first experience at _DevChallenge_, where I can pratice some layout techniques.
 
 And with it I could test a little of display grid and flex, and a bit of BEM, and Github Pages.
 

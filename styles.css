@@ -36,6 +36,43 @@
   max-width: 100%;
 }
 
+.content {
+  font-family: 'Space Mono';
+  font-style: normal;
+  grid-area: content;
+  justify-content: space-around;
+}
+
+.content__heading {
+  font-size: 48px;
+  font-weight: bold;
+  letter-spacing: -2.24px;
+  line-height: 71px;
+  margin: 0 0 30px;
+  padding: 0;
+}
+
+.content__paragraph {
+  font-size: 18px;
+  font-weight: normal;
+  letter-spacing: -0.84px;
+  line-height: 27px;
+  margin-bottom: 60px;
+}
+
+.content__button {
+  background: #333333;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: -0.49px;
+  line-height: 21px;
+  padding: 20px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 .footer {
   align-self: end;
   font-family: 'Montserrat', sans-serif;

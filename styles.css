@@ -28,6 +28,14 @@
   margin-bottom: 95px;
 }
 
+.aside {
+  margin-bottom: 60px;
+}
+
+.aside__image {
+  max-width: 100%;
+}
+
 .footer {
   align-self: end;
   font-family: 'Montserrat', sans-serif;

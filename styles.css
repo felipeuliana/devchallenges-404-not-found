@@ -109,4 +109,13 @@
     flex-direction: row;
     margin-bottom: 0;
   }
+
+  .aside {
+    margin: 0;
+  }
+
+  .aside__image {
+    align-self: start;
+    max-width: 450px;
+  }
 }
